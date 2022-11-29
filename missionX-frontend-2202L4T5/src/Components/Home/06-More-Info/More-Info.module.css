@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+@media screen and (min-width: 425px) {
+	.main-info-container {
+		display: flex;
+		justify-content: center;
+		margin-top: 6rem;
+		width: 100vw;
+	}
+	.text-area {
+		display: flex;
+		flex-direction: column;
+		width: 32%;
+		margin-left: 8rem;
+	}
+
+	.text-area-h1 {
+		font: bold 2.6rem "Nunito", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.text-area-h2 {
+		font: 2.2rem "Open Sans", sans-serif;
+		font-weight: 600;
+		text-align: left;
+		color: #6c6c6c;
+		margin: 0;
+	}
+
+	.text-area-p {
+		font: 1.25rem "Open Sans", sans-serif;
+		font-weight: 600;
+		color: #6c6c6c;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.main-info-container {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		margin-top: 1rem;
+	}
+	.text-area {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.text-area-h1 {
+		font: 1.9rem "Nunito", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.text-area-h2 {
+		font: 1.1rem "Open Sans", sans-serif;
+		text-align: center;
+		color: #6c6c6c;
+		margin: 0;
+		width: 100vw;
+	}
+
+	.text-area-p {
+		width: 80%;
+		font: 1.1rem "Open Sans", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.student-image img {
+		width: 80%;
+		margin: 2rem 0 0 2.65rem;
+	}
+}

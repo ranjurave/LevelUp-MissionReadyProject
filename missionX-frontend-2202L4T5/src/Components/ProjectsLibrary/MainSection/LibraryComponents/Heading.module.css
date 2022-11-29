@@ -1,0 +1,8 @@
+.heading_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #6C6C6C;
+    align-items: flex-start;
+    margin-bottom: 5vh;
+}

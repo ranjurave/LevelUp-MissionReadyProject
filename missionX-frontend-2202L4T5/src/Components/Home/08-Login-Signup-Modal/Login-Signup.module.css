@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+@media screen and (min-width: 425px) {
+	.modal-background {
+		display: flex;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgb(241, 241, 241);
+		position: fixed;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+	}
+
+	.modal-main-container {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		background-color: white;
+		width: 45vw;
+		height: 90vh;
+	}
+
+	.student-container,
+	.teacher-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 45vh;
+		height: 90vh;
+	}
+
+	.student-container {
+		border-right: 2px solid #707070;
+		padding: 2rem 5rem 0 3rem;
+	}
+
+	.teacher-container {
+		padding: 2rem 0 0 5rem;
+	}
+
+	.student-image img,
+	.teacher-image img {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.student-header,
+	.teacher-header {
+		font: bold 3rem "Nunito", sans-serif;
+		color: #707070;
+	}
+
+	.login-signup-btn {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3.1rem;
+		width: 60%;
+	}
+
+	.activeLogin {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: 4px solid #43c0f6;
+		background-color: transparent;
+	}
+
+	.inactiveLogin {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+		background-color: transparent;
+	}
+
+	.activeSignUp {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: 4px solid #f91c85;
+		background-color: transparent;
+	}
+
+	.inactiveSignUp {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+		background-color: transparent;
+	}
+	/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+	.login-fields form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 12rem;
+		height: 8vh;
+	}
+
+	.inactiveLoginFields {
+		height: 0;
+	}
+
+	.activeLoginInput {
+		height: 2.5vh;
+		border: 1px solid rgb(204, 204, 204);
+		border-radius: 8px;
+	}
+
+	.inactiveLoginInput {
+		display: none;
+	}
+
+	.signup-fields form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 12.5rem;
+		height: 18vh;
+	}
+
+	.inactiveSignUpFields {
+		height: 6vh;
+	}
+
+	.activeSignUpInput {
+		height: 2.5vh;
+		border: 1px solid rgb(204, 204, 204);
+		border-radius: 8px;
+	}
+
+	.inactiveSignUpInput {
+		display: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+	.bottom-login-signup-btns {
+		display: flex;
+		justify-content: center;
+		width: 14vw;
+	}
+
+	.activeLoginBottom {
+		width: 8rem;
+		height: 3.5vh;
+		border: 2px solid #f91c85;
+		background-color: #f91c85;
+		font: bold 1rem "Nunito", sans-serif;
+		border-radius: 9px;
+		color: white;
+	}
+
+	.inactiveLoginBottom {
+		display: none;
+	}
+
+	.activeSignUpBottom {
+		width: 8rem;
+		height: 3.5vh;
+		border: 2px solid #f91c85;
+		background-color: #f91c85;
+		font: bold 1rem "Nunito", sans-serif;
+		border-radius: 9px;
+		margin-top: 2rem;
+		color: white;
+	}
+
+	.inactiveSignUpBottom {
+		display: none;
+	}
+
+	.showStuLoginMessage,
+	.showStuSignupMessage {
+		display: block;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		color: #707070;
+	}
+
+	.hideStuLoinMessage,
+	.hideStuSignupMessage {
+		display: none;
+	}
+
+	.showTeacherLoginMessage,
+	.showTeacherSignupMessage {
+		display: block;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		color: #707070;
+	}
+
+	.hideTeacherLoginMessage,
+	.hideTeacherSignupMessage {
+		display: none;
+	}
+
+	.close-button {
+		display: flex;
+		align-items: center;
+		margin-left: 3rem;
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.close-button button {
+		width: 3rem;
+		height: auto;
+		font-size: 2rem;
+		font-weight: bold;
+		color: #707070;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.modal-background {
+		display: flex;
+		width: 100vw;
+		height: 150vh;
+		background-color: rgb(241, 241, 241);
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.modal-main-container {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background-color: white;
+		width: 100vw;
+		height: 150vh;
+	}
+
+	.student-container,
+	.teacher-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2.5rem;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.student-container {
+		border: none;
+		padding: 0;
+	}
+
+	.teacher-container,
+	.student-container {
+		padding: 0;
+		border-bottom: 2px solid black;
+	}
+
+	.student-image img,
+	.teacher-image img {
+		display: none;
+	}
+
+	.student-header,
+	.teacher-header {
+		font: bold 3rem "Nunito", sans-serif;
+		color: #707070;
+	}
+
+	.login-signup-btn {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3.1rem;
+		width: 50%;
+	}
+
+	.activeLogin form {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: 4px solid #43c0f6;
+		background-color: transparent;
+	}
+
+	.inactiveLogin form {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+		background-color: transparent;
+	}
+
+	.activeSignUp {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: 4px solid #f91c85;
+		background-color: transparent;
+	}
+
+	.inactiveSignUp form {
+		width: 5rem;
+		font: bold 1rem "Open Sans";
+		color: #707070;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+		background-color: transparent;
+	}
+	/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+	.login-fields form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 13.5rem;
+		height: 8vh;
+	}
+
+	.inactiveLoginFields form {
+		height: 0;
+	}
+
+	.activeLoginInput form {
+		height: 2.5vh;
+		border: 1px solid rgb(204, 204, 204);
+		border-radius: 8px;
+	}
+
+	.inactiveLoginInput form {
+		display: none;
+	}
+
+	.signup-fields form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 13.5rem;
+		height: 18vh;
+	}
+
+	.inactiveSignUpFields form {
+		height: 6vh;
+	}
+
+	.activeSignUpInput form {
+		height: 2.5vh;
+		border: 1px solid rgb(204, 204, 204);
+		border-radius: 8px;
+	}
+
+	.inactiveSignUpInput form {
+		display: none;
+	}
+
+	/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+	.bottom-login-signup-btns {
+		display: flex;
+		justify-content: center;
+		width: 50vw;
+	}
+
+	.activeLoginBottom {
+		width: 8rem;
+		height: 3.5vh;
+		border: 2px solid #f91c85;
+		background-color: #f91c85;
+		font: bold 1rem "Nunito", sans-serif;
+		border-radius: 9px;
+		color: white;
+	}
+
+	.inactiveLoginBottom {
+		display: none;
+	}
+
+	.activeSignUpBottom {
+		width: 8rem;
+		height: 3.5vh;
+		border: 2px solid #f91c85;
+		background-color: #f91c85;
+		font: bold 1rem "Nunito", sans-serif;
+		border-radius: 9px;
+		margin-top: 2rem;
+		color: white;
+	}
+
+	.inactiveSignUpBottom {
+		display: none;
+	}
+
+	.close-button {
+		display: flex;
+		align-items: center;
+		margin-left: 0;
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.close-button button {
+		width: 3rem;
+		height: auto;
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #707070;
+		border: none;
+		background-color: transparent;
+	}
+}

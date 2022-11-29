@@ -1,0 +1,11 @@
+.teacher_navbar {
+    display: flex;
+    margin: 0%;
+  }
+  
+  .navbar_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1920px;
+}
+
+.App-part {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    height: 1023px; 
+}
+
+.Profile--sideBar{
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #E2DFDF;
+    display: flex;
+    flex-direction: column;
+    height: 575px;
+    justify-content: center;
+    margin-top: 139px;
+    margin-right: 35px;
+    width: 361px;
+}
+
+.Teacher--Info {
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #E2DFDF;
+    font: bold 'Nunito', sans-serif;
+    height: 712px;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 138px;
+    padding: 54px 47px;
+    width: 820px;
+}
+
+button {
+    color: #43C0F6;
+    font: 800 15px 'Nunito', sans-serif;
+}
+
+h2 {
+    color: #707070;
+    font: bold 60px 'Nunito', sans-serif;
+    letter-spacing: 1.2px;
+    margin: 0px 0px 67px 0px;
+    text-align: center;
+    width: 720px;
+}
+
+.read-data {
+    color: #707070;
+    font: 700 30px 'Nunito', sans-serif;
+    letter-spacing: 0.6px;
+    width: auto;
+}
+
+.read-database {
+    color: #707070;
+    font: 700 30px 'Nunito', sans-serif;
+    letter-spacing: 0.6px;
+    margin-top: 28px;
+    text-align: left;
+    width: auto;
+}
+
+h3 {
+    color: #A5A5A5;
+    font: 600 30px 'Nunito', sans-serif;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.TeacherIcon {
+    height: 175px;
+    margin: 30px 93px 45px 93px;
+    width: 175px;
+}
+
+.data-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: flex-start;
+}
+
+.data-info div {
+    color: #707070;
+    font: 700 30px 'Nunito', sans-serif;
+    letter-spacing: 0.6px;
+    margin-top: 14px;
+    text-align: left;
+}

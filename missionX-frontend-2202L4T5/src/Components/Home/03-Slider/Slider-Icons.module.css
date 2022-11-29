@@ -1,0 +1,74 @@
+@media screen and (min-width: 425px) {
+	.slider-icons {
+		display: flex;
+		display: column;
+		align-items: center;
+		margin-top: 2rem;
+		margin-left: 17rem;
+	}
+
+	.inner-slider-icons {
+		display: flex;
+	}
+
+	.icon {
+		display: flex;
+		flex-direction: column;
+		width: 9.5rem;
+		height: 8.5rem;
+		padding-top: 0.9rem;
+		margin-right: 0.6rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background: radial-gradient(#88dbff, #43c0f6);
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	.icon > p {
+		font: bold 0.95rem "Open Sans", sans-serif;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.slider-icons {
+		display: flex;
+		display: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 0rem;
+		margin-left: 0.5rem;
+	}
+
+	.inner-slider-icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.icon {
+		display: flex;
+		flex-direction: column;
+		width: 6rem;
+		height: 6rem;
+		padding-top: 0.2rem;
+		margin-right: 0.5rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background: radial-gradient(#88dbff, #43c0f6);
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	.icon img {
+		width: 2.6rem;
+	}
+
+	.icon > p {
+		font: bold 0.7rem "Open Sans", sans-serif;
+		color: white;
+	}
+}

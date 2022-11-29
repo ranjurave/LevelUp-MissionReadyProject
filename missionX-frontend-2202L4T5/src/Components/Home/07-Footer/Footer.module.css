@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+@media screen and (min-width: 425px) {
+	.main-footer-container {
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		margin-top: 6rem;
+		padding: 6rem 0 10rem 0;
+		gap: 3rem;
+		background-color: #b2e4fa;
+		border: 1px solid #b2e4fa;
+	}
+
+	.main-footer-container > div > h3 {
+		font: 700 1.5rem "Nunito", sans-serif;
+		color: #707070;
+	}
+
+	.main-footer-container > div > ul {
+		font: 500 1.25rem "Open Sans", Regular;
+		color: #707070;
+	}
+
+	.ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.company-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.course-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.support-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.legal-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.level-up-contact {
+		display: flex;
+		flex-direction: column;
+		width: 22rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.main-footer-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		margin-top: 4rem;
+		padding: 2rem 0 4rem 0;
+		gap: 0rem;
+		background-color: #b2e4fa;
+		border: 1px solid #b2e4fa;
+	}
+
+	.main-footer-container > div > h3 {
+		font-family: "Nunito", sans-serif;
+		font-size: 1.2rem;
+		text-align: center;
+		color: #707070;
+	}
+
+	.main-footer-container > div > ul {
+		font-family: "Open Sans", Regular;
+		font-size: 1rem;
+		color: #707070;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.company-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+		margin-top: 0;
+	}
+
+	.course-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+		margin-top: 0;
+	}
+
+	.support-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.legal-container {
+		display: flex;
+		flex-direction: column;
+		width: 12.5rem;
+	}
+
+	.level-up-contact {
+		display: flex;
+		flex-direction: column;
+		width: 17rem;
+	}
+}

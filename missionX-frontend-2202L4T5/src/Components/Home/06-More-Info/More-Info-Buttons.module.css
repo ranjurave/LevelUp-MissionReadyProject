@@ -1,0 +1,58 @@
+@media screen and (min-width: 425px) {
+	.button-container {
+		display: flex;
+		margin-top: 3.1rem;
+		/* border: 2px solid black; */
+	}
+
+	.enquire-now-btn {
+		width: 11rem;
+		height: 2.2rem;
+		font: bold 1rem "Nunito", sans-serif;
+		border: 3px solid #42c0f6;
+		border-radius: 9px;
+		background: white;
+		color: #6c6c6c;
+	}
+
+	.sign-up-btn {
+		width: 11rem;
+		height: 2.2rem;
+		margin-left: 7rem;
+		font: bolder 1rem "Nunito", sans-serif;
+		color: white;
+		border: 3px solid #f91c85;
+		border-radius: 9px;
+		background: #f91c85;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.button-container {
+		display: flex;
+		margin-top: 2rem;
+		/* border: 2px solid black; */
+	}
+
+	.enquire-now-btn {
+		width: 9rem;
+		height: 2.2rem;
+		font: bold 0.8rem "Nunito", sans-serif;
+		border: 3px solid #42c0f6;
+		border-radius: 9px;
+		background: white;
+		color: #6c6c6c;
+	}
+
+	.sign-up-btn {
+		width: 9rem;
+		height: 2.2rem;
+		margin-left: 1.5rem;
+		font: bolder 0.8rem "Nunito", sans-serif;
+		color: white;
+		border: 3px solid #f91c85;
+		border-radius: 9px;
+		background: #f91c85;
+	}
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+.main-footer-container {
+	display: flex;
+	justify-content: center;
+	padding: 151px 0 197px 0;
+	gap: 3rem;
+	background-color: #b2e4fa;
+	border: 1px solid #b2e4fa;
+}
+
+.main-footer-container > div > h3 {
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	color: #707070;
+}
+
+.main-footer-container > div > ul {
+	font-family: "Open Sans", Regular;
+	font-size: 20px;
+	color: #707070;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.company-container {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 190px;
+}
+
+.course-container {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 270px;
+}
+
+.support-container {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 190px;
+}
+
+.legal-container {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 160px;
+}
+
+.level-up-contact {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 360px;
+}

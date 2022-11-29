@@ -1,0 +1,4 @@
+.mainContainerBody{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.teacher-page-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    display: flex;
+    height: 900px;
+    font-family: "Open Sans", sans-serif;
+}
+.contents{
+    background-color: #b2e4fa;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+}
+.contents-inner{
+    background-color:#d9f2fd ;
+    height: 100%;
+    border-radius: 50px;
+    padding: 50px;
+}
+.contents-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+}

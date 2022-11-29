@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@media screen and (min-width: 425px) {
+	.hero-text {
+		margin-left: 17rem;
+		width: 85vw;
+	}
+
+	.hero-text-h1 {
+		max-width: 40rem;
+		margin: 2rem 0 0 0;
+		font: bold 3rem "Nunito", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.future-text-blue {
+		color: #42c0f6;
+	}
+
+	.hero-text-h2 {
+		font: bold 1.3rem "Open Sans", sans-serif;
+		text-align: left;
+		margin-top: 1rem;
+		width: 32%;
+		color: #6c6c6c;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.hero-text {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.hero-text-h1 {
+		font: bold 1.5rem "Nunito", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.future-text-blue {
+		color: #42c0f6;
+	}
+
+	.hero-text-h2 {
+		font: bold 1rem "Open Sans", sans-serif;
+		width: 100%;
+		color: #6c6c6c;
+		text-align: center;
+	}
+}

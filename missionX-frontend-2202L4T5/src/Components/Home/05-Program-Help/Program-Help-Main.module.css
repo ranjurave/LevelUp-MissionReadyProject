@@ -1,0 +1,137 @@
+@media screen and (min-width: 425px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		align-items: center;
+		padding-bottom: 2rem;
+	}
+
+	.header-h1 {
+		font: bold 2.7rem "Nunito", sans-serif;
+		color: #6c6c6c;
+		text-align: center;
+	}
+
+	.programme-btn {
+		display: flex;
+		justify-content: space-between;
+		width: 70%;
+	}
+
+	.programme-btn button {
+		width: 14rem;
+		height: 2rem;
+		font: bold 1rem "Nunito", sans-serif;
+		border: 3px solid #42c0f6;
+		border-radius: 9px;
+		background: white;
+		color: #6c6c6c;
+		cursor: pointer;
+	}
+
+	#active-btn {
+		background: #dadada;
+		border: none;
+	}
+
+	.programme-btn button:hover {
+		background: #dadada;
+		border: none;
+	}
+
+	.enhance-container-main {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		background: #efeff1;
+		margin: 0;
+		padding: 0;
+	}
+
+	.enhance-header-h1 {
+		margin-top: 3rem;
+		margin-left: 18rem;
+		font: bold 30px "Nunito", sans-serif;
+		color: #606060;
+	}
+
+	.enhance-header-p {
+		margin-left: 18rem;
+		font: 500 1.3rem "Open Sans";
+		color: #606060;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.5rem 0 2rem 0;
+	}
+
+	.header-h1 {
+		font: bold 1.1rem "Nunito", sans-serif;
+		color: #6c6c6c;
+		text-align: center;
+	}
+
+	.programme-btn {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	.programme-btn button {
+		width: 6.2rem;
+		height: 2.5rem;
+		font: bold 0.65rem "Nunito", sans-serif;
+		border: 3px solid #42c0f6;
+		border-radius: 9px;
+		background: white;
+		color: #6c6c6c;
+		cursor: pointer;
+	}
+
+	#active-btn {
+		background: #dadada;
+		border: none;
+	}
+
+	.programme-btn button:hover {
+		background: #dadada;
+		border: none;
+	}
+
+	.enhance-container-main {
+		display: flex;
+		flex-direction: column;
+		background: #efeff1;
+		margin: 0;
+		padding: 0;
+	}
+
+	.enhance-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.enhance-header-h1 {
+		margin: 2rem 0 1.5rem 0;
+		font: bold 1.6rem "Nunito", sans-serif;
+		text-align: center;
+		color: #606060;
+	}
+
+	.enhance-header-p {
+		margin: 0 0 1.5rem 0;
+		text-align: center;
+		font: 1rem "Open Sans";
+		font-weight: 500;
+		width: 100vw;
+		color: #606060;
+	}
+}

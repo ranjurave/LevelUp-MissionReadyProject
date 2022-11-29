@@ -1,0 +1,67 @@
+@media screen and (min-width: 425px) {
+	.what-we-offer {
+		display: flex;
+		flex-direction: column;
+		width: 35vw;
+		height: 40vh;
+		margin-left: 17rem;
+		margin-top: 2rem;
+	}
+
+	.what-we-offer-h1 {
+		font: bold 3rem "Nunito", sans-serif;
+		color: #6c6c6c;
+	}
+
+	.what-we-offer-p {
+		width: 35rem;
+		font: 1.5rem "Open sans", sans-serif;
+		margin: 0;
+		color: #767676;
+	}
+
+	.what-we-offer-h2 {
+		color: #6c6c6c;
+		text-align: left;
+		margin-top: 3rem;
+		font: bold 1.95rem "Nunito", sans-serif;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.what-we-offer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 100vw;
+		height: 38vh;
+		margin-left: 0rem;
+		margin-top: 0rem;
+	}
+
+	.what-we-offer-h1 {
+		font: bold 1.2rem "Nunito", sans-serif;
+		color: #6c6c6c;
+		padding-bottom: 1rem;
+	}
+
+	.what-we-offer-p {
+		width: 100vw;
+		height: 20vh;
+		padding: 0 3rem 0 3rem;
+		font: 1rem "Open sans", sans-serif;
+		font-weight: 500;
+		color: #767676;
+	}
+
+	.what-we-offer-h2 {
+		width: 100vw;
+		text-align: center;
+		color: #6c6c6c;
+		font: bold 1.2rem "Nunito", sans-serif;
+		padding: 0;
+		margin: 0;
+	}
+}

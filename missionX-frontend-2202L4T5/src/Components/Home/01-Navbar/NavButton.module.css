@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+@media screen and (min-width: 426px) {
+	.inner-container {
+		display: flex;
+		flex-direction: column;
+		flex: 40%;
+	}
+
+	.navButtons {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		height: 7vh;
+	}
+
+	.navButtons button {
+		color: #ffffff;
+		background: transparent;
+		margin-right: 5.4rem;
+		border: none;
+		font: bold 1rem "Open Sans", sans-serif;
+	}
+
+	.left-container {
+		color: white;
+	}
+
+	.hamburger {
+		display: none;
+	}
+	.opened-navbar button {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.inner-container {
+		display: flex;
+		flex-direction: column;
+		flex: 40%;
+	}
+
+	.navButtons {
+		display: flex;
+		justify-content: center;
+	}
+
+	.navButtons button {
+		font: bold 0.8rem "Open Sans", sans-serif;
+		color: #ffffff;
+		background: none;
+		border: none;
+		font-size: 1.5rem;
+	}
+
+	.navButtons button:nth-child(1),
+	.navButtons button:nth-child(2),
+	.navButtons button:nth-child(3) {
+		display: none;
+	}
+
+	.opened-navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.opened-navbar button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #43c0f6;
+		color: white;
+		font-weight: bolder;
+		width: 324%;
+		height: 2.1rem;
+		cursor: pointer;
+		border: none;
+		z-index: 0;
+	}
+	.navButtons .hamburger {
+		color: white;
+	}
+}
